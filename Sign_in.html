@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="StyleSheet" href="Style3.css">
+    <title>PROFILE | Sign In</title>
+</head>
+<body>
+       <header class="header">
+            <a href="index.html" class="logo">KENNETH | PROFILE CARD</a>
+            <ul class="nav">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Songs.html">SONGS</a></li>
+                <li><a href="Sign_in.html">SIGN IN</a></li>
+            </ul>
+    </header>
+        
+  
+     <div class="loginbox">
+            <img src="IMG/Icon.jpg" class="avatar" id="photo"> 
+            <h1 style="color:black">Sign in</h1>
+ 
+            <p>  First Name<div class="awit">
+              
+            </p>
+            <input type="text" name=""   id="firstName"   placeholder="Enter FirstName" >
+            <p>Last Name</p>
+            <input type="text" name="" id="lastName" placeholder="Enter LastName"> 
+            <p>Section</p>
+            <input type="text" name="" id="section" placeholder="Section"> 
+             <p>Motto</p>
+            <input type="text" name="" id="motto" placeholder="Section"> 
+
+
+             <input type="submit"     onclick="submit()" value="Submit">
+        
+        </div>
+
+          <h1 class="greet">Your card</h1>
+
+    <div class="container">
+        <div class="profile">
+             <img src="IMG/4935194.webp">
+            <div class="content">
+                <h1 style="text-align: left;" id="fname">Your Name</h1>
+                <h3 style="text-align: left;" id="sectionText">Section</h3>
+                <div class="line"></div>
+                <p style="text-align: left; color:cornsilk" id="mottoText">Motto</p>
+                <label class="label">
+                    <div class="toggle">
+                        <input class="toggle-state" type="checkbox" name="check" value="check" onclick="changebg()">
+                        <div class="indicator"></div>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
